@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Install uv via
+#
+# pip3 install uv --break-system-packages
+
+# Update dependencies via
+#
+# ./uv sync
+
+# Run polarsteps-exporter via
+#
+# ./uv run polarsteps-data-parser --output <output.pdf> <input_folder>
+
+
+/home/dstadler/.local/bin/uv "$@"
